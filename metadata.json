@@ -1,0 +1,49 @@
+{
+    "threshold": 0.3495234549045563,
+    "num_features": [
+        "INVESTMENT_TOTAL",
+        "ACCCURRENTBALANCE",
+        "INSTALL_SIZE"
+    ],
+    "cat_features": [
+        "INF_MARITAL_STATUS",
+        "INF_GENDER",
+        "COMPENSATION_CHARGED",
+        "CLIENT_TYPE",
+        "REPAY_MODE"
+    ],
+    "cat_options": {
+        "INF_MARITAL_STATUS": [
+            "M",
+            "U",
+            "O"
+        ],
+        "INF_GENDER": [
+            "M",
+            "F"
+        ],
+        "COMPENSATION_CHARGED": [
+            "N",
+            "Y"
+        ],
+        "CLIENT_TYPE": [
+            "Rural",
+            "Urban",
+            "Semi-Urban"
+        ],
+        "REPAY_MODE": [
+            "N",
+            "I"
+        ]
+    },
+    "feature_names": [
+        "INVESTMENT_TOTAL",
+        "ACCCURRENTBALANCE",
+        "INSTALL_SIZE",
+        "INF_MARITAL_STATUS",
+        "INF_GENDER",
+        "COMPENSATION_CHARGED",
+        "CLIENT_TYPE",
+        "REPAY_MODE"
+    ]
+}
